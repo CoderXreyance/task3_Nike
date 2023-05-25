@@ -1,0 +1,232 @@
+.category {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.category > img {
+    position: absolute;
+    left: 40px;
+    width: 60px;
+}
+
+.category a {
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+    color: black;
+    font-family: sans-serif;
+}
+.category a:hover {
+    text-decoration: underline;
+}
+
+.search {
+    position: absolute;
+    right: 130px;
+}
+
+.search > input{
+    border-radius: 50px;
+    height: 40px;
+    background-color: lightgrey;
+    float: right;
+    text-align: center;
+}
+
+.icons > img {
+    width: 30px;
+}
+.icons {
+    position: absolute;
+    right: 30px;
+}
+
+.video {
+    margin-top: 30px;
+    width: 100%;
+    height: 600px;
+    overflow: scroll;
+    border: 2px solid black;
+    background-image: url('./pexels-jules-palmer-6258910.jpg');
+    background-size: cover;
+}
+
+.section {
+     width: 100%;
+     height: 300px;
+     text-align: center;
+}
+
+.section > h3 {
+    font-size: 90px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.section > p {
+    position: relative;
+    top: 0px;   
+}
+.summer {
+    position: relative;
+    top: 15px;
+}
+
+.section > button {
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border: none;
+}
+
+.section > button:hover {
+    background-color: lightgray;
+}
+
+.cards {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.cards > div {
+    flex-basis: 290px;
+    height: 290px;
+    border: 3px solid black;
+}
+.firstCard {
+    background-image: url('https://tse1.explicit.bing.net/th?id=OIP.itUK2rpbpkyvg8V72YqLWgHaJR&pid=Api&P=0&h=180');
+    background-size: cover;
+}
+.secondCard {
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.pB3qzDJ5Odo4QnVBS5BK3wHaHa&pid=Api&P=0&h=180');
+    background-size: cover;
+}
+.thirdCard {
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.tdP3YJFnnlb-1ALmhgIHDQHaGo&pid=Api&P=0&h=180');
+    background-size: cover;
+}
+.fourthCard {
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.kB5t-nCGlOtKRwDbTCta8wHaE8&pid=Api&P=0&h=180');
+    background-size: cover;
+}
+.fifthCard {
+    background-image: url('https://tse3.mm.bing.net/th?id=OIP.fFDy1qA9SBnwgMZnW3ziqwHaHa&pid=Api&P=0&h=180');
+    background-size: cover;
+}
+
+.spiderman {
+    margin-top: 10px;
+    width: 100%;
+    height: 1300px;
+}
+.spiderman > p {
+    font-size: large;
+    font-family: sans-serif;
+    position: relative;
+    top: 30px;
+    left: 45px;
+}
+
+.spiderman > div {
+    width: 1400px;
+    height: 1200px;
+    margin: 50px;
+    border: 2px solid black;
+    background-image: url('./pexels-hamza-nouasria-12725055.jpg');
+    background-size: cover;
+}
+.shoes {
+    width: 100%;
+    height: 800px;
+    margin: 10px;
+    display: flex;
+    flex: row nowrap;
+    justify-content: space-around;
+}
+
+.shoes > div {
+    flex-basis: 490px;
+    height: 490px;
+    margin-top: 150px;
+    background-color: rgba(255,255,255,0.5);
+    
+}
+
+.shoes > div > span,p {
+    position: relative;
+    top: 520px;
+}
+.shoes p {
+    color: gray;
+}
+
+.firstShoes {
+    background-image: url('https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.3/w_467,c_limit/5f64e8c2-4948-497a-91a4-5359c553c4c9/nikecourt-vapor-lite-2-hard-court-tennis-shoes-8dGHWK.png');
+    background-size: cover;
+}
+.secondShoes {
+    background-image: url('https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.3/w_467,c_limit/5affda87-cb2e-4824-9bbd-4be4e4fc4341/nikecourt-air-zoom-lite-3-tennis-shoes-6f6J0W.png');
+    background-size: cover;
+}
+.thirdShoes {
+    background-image: url('https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.3/w_467,c_limit/caf34e6c-114a-4fc8-8110-b999171afcb9/nikecourt-vapor-lite-2-hard-court-tennis-shoes-8RL88H.png');
+    background-size: cover;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: black;
+    width: 100%;
+    /* height: 350px; */
+}
+.footer_lists {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+}
+.footer_lists > div {
+    flex-basis: 400px;
+    margin: 50px;
+    /* border: 1px solid white; */
+}
+
+.first_set  a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px 0px 20px 0;
+}
+.second_set  a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px 0px 20px 0;
+}
+.second_set  span {
+    display: block;
+    font-size: 11px;
+}
+.third_set  a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px 0px 20px 0;
+}
+.third_set  span {
+    display: block;
+    font-size: 11px;
+}
+
+.footer_lists > .social_icons {
+    height: 35px;
+    position: absolute;
+    right: 90px;
+    flex-basis: 500px;
+}
+.social_icons > img {
+    margin: 5px;
+    border-radius: 10px;
+}
